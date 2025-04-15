@@ -1,0 +1,719 @@
+{
+
+  "courses": [
+    {
+      "code": "CSE011",
+      "name": "Computer Skills",
+      "credit_hours": 0,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE012",
+      "name": "Scientific Applications of Computers",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE013",
+      "name": "Introduction to Information systems & technology",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE014",
+      "name": "Structured Programming",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE015",
+      "name": "Object Oriented Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE014"]
+    },
+    {
+      "code": "CSE081",
+      "name": "Digital Branding",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE111",
+      "name": "Data Structures",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE112",
+      "name": "Design & Analysis of Algorithms",
+      "credit_hours": 4,
+      "prerequisites": ["CSE111"]
+    },
+    {
+      "code": "CSE113",
+      "name": "Electric &Electronic Circuits",
+      "credit_hours": 3,
+      "prerequisites": ["PHY212"]
+    },
+    {
+      "code": "CSE131",
+      "name": "Logic Design",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE132",
+      "name": "Computer Architecture &Organization",
+      "credit_hours": 3,
+      "prerequisites": ["CSE131"]
+    },
+    {
+      "code": "CSE191",
+      "name": "Field Training 1 in Computer Science",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE192",
+      "name": "Field Training 2 in Computer Science",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE211",
+      "name": "Web Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE221",
+      "name": "Database Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE111"]
+    },
+    {
+      "code": "CSE232",
+      "name": "Operating Systems Administration",
+      "credit_hours": 3,
+      "prerequisites": ["CSE014"]
+    },
+    {
+      "code": "CSE233",
+      "name": "Operating Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE111"]
+    },
+    {
+      "code": "CSE234",
+      "name": "Embedded Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE132"]
+    },
+    {
+      "code": "CSE241",
+      "name": "Security of Information Systems",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE242",
+      "name": "Cryptography",
+      "credit_hours": 3,
+      "prerequisites": ["CSE112"]
+    },
+    {
+      "code": "CSE243",
+      "name": "Secure Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE241", "CSE344"]
+    },
+    {
+      "code": "CSE251",
+      "name": "Software Engineering",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE261",
+      "name": "Computer Networks",
+      "credit_hours": 3,
+      "prerequisites": ["CSE014", "CSE132"]
+    },
+    {
+      "code": "CSE262",
+      "name": "Introduction to Telecommunications, Networking and Security",
+      "credit_hours": 3,
+      "prerequisites": ["CSE01"]
+    },
+    {
+      "code": "CSE271",
+      "name": "Introduction to Parallel Computing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE112"]
+    },
+    {
+      "code": "CSE272",
+      "name": "Parallel & Distributed Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE132"]
+    },
+    {
+      "code": "CSE281",
+      "name": "Image Processing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015", "MAT212"]
+    },
+    {
+      "code": "CSE282",
+      "name": "Statistical Data Analytics",
+      "credit_hours": 3,
+      "prerequisites": ["MAT131"]
+    },
+    {
+      "code": "CSE283",
+      "name": "Introduction to Digital Forensics",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE291",
+      "name": "Field Training 1 in Computer Engineering",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE292",
+      "name": "Field Training 2 in Computer Science",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE311",
+      "name": "Design of Compilers",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE312",
+      "name": "Advanced Web Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE211"]
+    },
+    {
+      "code": "CSE313",
+      "name": "Mobile Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE314",
+      "name": "Android and iOS Development",
+      "credit_hours": 3,
+      "prerequisites": ["CSE313"]
+    },
+    {
+      "code": "CSE315",
+      "name": "Discrete Mathematics",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE321",
+      "name": "Societal and Ethical Issues in Information Technology",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE322",
+      "name": "Big Data Analytics 1",
+      "credit_hours": 3,
+      "prerequisites": ["AIE121"]
+    },
+    {
+      "code": "CSE323",
+      "name": "Advanced database systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE221"]
+    },
+    {
+      "code": "CSE324",
+      "name": "IT Management and Operations",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE325",
+      "name": "Database Systems Administration",
+      "credit_hours": 3,
+      "prerequisites": ["CSE221"]
+    },
+    {
+      "code": "CSE335",
+      "name": "Real Time & Embedded Systems Design",
+      "credit_hours": 3,
+      "prerequisites": ["CSE234"]
+    },
+    {
+      "code": "CSE344",
+      "name": "Introduction to Cyber Security",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE351",
+      "name": "Software Project Management",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE352",
+      "name": "Systems Analysis &Design",
+      "credit_hours": 3,
+      "prerequisites": ["CSE251"]
+    },
+    {
+      "code": "CSE353",
+      "name": "Interaction Design",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE361",
+      "name": "Networks Virtualization and Administration",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261", "CSE262"]
+    },
+    {
+      "code": "CSE362",
+      "name": "Industrial Networks",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261"]
+    },
+    {
+      "code": "CSE363",
+      "name": "Cloud Computing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261"]
+    },
+    {
+      "code": "CSE373",
+      "name": "Parallel Programming",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "CSE382",
+      "name": "Computer Graphics",
+      "credit_hours": 3,
+      "prerequisites": ["CSE281"]
+    },
+    {
+      "code": "CSE383",
+      "name": "Computer Vision",
+      "credit_hours": 3,
+      "prerequisites": ["CSE281"]
+    },
+    {
+      "code": "CSE392",
+      "name": "Field Training 2 in Computer Engineering",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE411",
+      "name": "Theory of Computation & Compilers",
+      "credit_hours": 3,
+      "prerequisites": ["CSE014"]
+    },
+    {
+      "code": "CSE424",
+      "name": "Data Warehousing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE323"]
+    },
+    {
+      "code": "CSE425",
+      "name": "Big Data Analytics 2",
+      "credit_hours": 3,
+      "prerequisites": ["CSE322"]
+    },
+    {
+      "code": "CSE426",
+      "name": "Selected Topics in Data Science",
+      "credit_hours": 3,
+      "prerequisites": ["CSE322"]
+    },
+    {
+      "code": "CSE427",
+      "name": "Selected Topics in Big Data",
+      "credit_hours": 3,
+      "prerequisites": ["CSE322"]
+    },
+    {
+      "code": "CSE436",
+      "name": "Selected Topics in Embedded Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE234"]
+    },
+    {
+      "code": "CSE445",
+      "name": "Selected Topics in Information Security",
+      "credit_hours": 3,
+      "prerequisites": ["CSE241", "CSE344"]
+    },
+    {
+      "code": "CSE446",
+      "name": "Information & Computer Networks Security",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261", "CSE241", "CSE344"]
+    },
+    {
+      "code": "CSE447",
+      "name": "Selected Topics in Computer Security",
+      "credit_hours": 3,
+      "prerequisites": ["CSE241", "CSE344"]
+    },
+    {
+      "code": "CSE448",
+      "name": "Cyber Forensics",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE453",
+      "name": "Software Testing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE251"]
+    },
+    {
+      "code": "CSE454",
+      "name": "Advanced Software Engineering",
+      "credit_hours": 3,
+      "prerequisites": ["CSE251"]
+    },
+    {
+      "code": "CSE455",
+      "name": "Selected Topics in Software Engineering",
+      "credit_hours": 3,
+      "prerequisites": ["CSE251"]
+    },
+    {
+      "code": "CSE463",
+      "name": "Advanced Networking",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261", "CSE262"]
+    },
+    {
+      "code": "CSE464",
+      "name": "Internet of Things",
+      "credit_hours": 3,
+      "prerequisites": ["CSE261"]
+    },
+    {
+      "code": "CSE465",
+      "name": "Selected Topics in Cloud Computing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE363"]
+    },
+    {
+      "code": "CSE466",
+      "name": "Selected Topics in IoT",
+      "credit_hours": 3,
+      "prerequisites": ["CSE464"]
+    },
+    {
+      "code": "CSE467",
+      "name": "Client/Server Technologies & Applications",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "CSE468",
+      "name": "Web Server Administration",
+      "credit_hours": 3,
+      "prerequisites": ["CSE262"]
+    },
+    {
+      "code": "CSE474",
+      "name": "Distributed Information Systems",
+      "credit_hours": 3,
+      "prerequisites": ["CSE221", "CSE261"]
+    },
+    {
+      "code": "CSE475",
+      "name": "High Performance Computing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE271"]
+    },
+    {
+      "code": "CSE476",
+      "name": "Selected Topics in High Performance Computing",
+      "credit_hours": 3,
+      "prerequisites": ["CSE475"]
+    },
+    {
+      "code": "CSE484",
+      "name": "Interactive Multimedia",
+      "credit_hours": 3,
+      "prerequisites": ["CSE382"]
+    },
+    {
+      "code": "CSE485",
+      "name": "Computer Games Theory",
+      "credit_hours": 3,
+      "prerequisites": ["CSE382"]
+    },
+    {
+      "code": "CSE486",
+      "name": "Selected Topics in Computer Vision",
+      "credit_hours": 3,
+      "prerequisites": ["CSE383"]
+    },
+    {
+      "code": "CSE487",
+      "name": "Mixed & Augmented Reality",
+      "credit_hours": 3,
+      "prerequisites": ["CSE382"]
+    },
+    {
+      "code": "CSE488",
+      "name": "Visualization & Animation",
+      "credit_hours": 3,
+      "prerequisites": ["CSE382"]
+    },
+    {
+      "code": "CSE493",
+      "name": "Graduation Project 1",
+      "credit_hours": 3,
+      "prerequisites": ["SENIOR STANDING"]
+    },
+    {
+      "code": "CSE494",
+      "name": "Graduation Project 2",
+      "credit_hours": 3,
+      "prerequisites": ["CSE493"]
+    },
+    {
+      "code": "AIE111",
+      "name": "Artificial Intelligence",
+      "credit_hours": 3,
+      "prerequisites": ["CSE015"]
+    },
+    {
+      "code": "AIE121",
+      "name": "Machine Learning",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE122",
+      "name": "Basics of Machine Learning and Data Science",
+      "credit_hours": 3,
+      "prerequisites": ["MAT131"]
+    },
+    {
+      "code": "AIE191",
+      "name": "Field Training 1 in AI Science",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE212",
+      "name": "Knowledge-based Systems",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE213",
+      "name": "Optimization techniques",
+      "credit_hours": 3,
+      "prerequisites": ["MAT312"]
+    },
+    {
+      "code": "AIE231",
+      "name": "Neural Networks",
+      "credit_hours": 3,
+      "prerequisites": ["AIE121"]
+    },
+    {
+      "code": "AIE241",
+      "name": "Natural Language Processing",
+      "credit_hours": 3,
+      "prerequisites": ["AIE121"]
+    },
+    {
+      "code": "AIE291",
+      "name": "Field Training 1 in AI Engineering",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE292",
+      "name": "Field Training 2 in AI Science",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE314",
+      "name": "AI-based programming",
+      "credit_hours": 3,
+      "prerequisites": ["AIE212"]
+    },
+    {
+      "code": "AIE315",
+      "name": "Computational Logic",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE316",
+      "name": "Evolutionary Algorithms",
+      "credit_hours": 3,
+      "prerequisites": ["AIE213"]
+    },
+    {
+      "code": "AIE317",
+      "name": "Artificial intelligence in medicine",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE322",
+      "name": "Advanced Machine Learning",
+      "credit_hours": 3,
+      "prerequisites": ["AIE121"]
+    },
+    {
+      "code": "AIE323",
+      "name": "Data Mining",
+      "credit_hours": 3,
+      "prerequisites": ["AIE121"]
+    },
+    {
+      "code": "AIE332",
+      "name": "Deep Learning",
+      "credit_hours": 3,
+      "prerequisites": ["AIE231"]
+    },
+    {
+      "code": "AIE342",
+      "name": "Advanced Methods for Data Analysis",
+      "credit_hours": 3,
+      "prerequisites": ["AIE323"]
+    },
+    {
+      "code": "AIE343",
+      "name": "Machine Learning for Text Mining",
+      "credit_hours": 3,
+      "prerequisites": ["AIE323", "AIE241"]
+    },
+    {
+      "code": "AIE351",
+      "name": "Robotics Design",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE392",
+      "name": "Field Training 2 in AI Engineering",
+      "credit_hours": 2,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE417",
+      "name": "Selected Topics in Artificial Intelligence 1",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE418",
+      "name": "Selected Topics in Artificial Intelligence 2",
+      "credit_hours": 3,
+      "prerequisites": ["AIE111"]
+    },
+    {
+      "code": "AIE419",
+      "name": "Artificial intelligence for computer games",
+      "credit_hours": 3,
+      "prerequisites": []
+    },
+    {
+      "code": "AIE424",
+      "name": "Intelligent Decision Support Systems",
+      "credit_hours": 3,
+      "prerequisites": ["AIE323"]
+    },
+    {
+      "code": "AIE425",
+      "name": "Intelligent Recommender Systems",
+      "credit_hours": 3,
+      "prerequisites": ["AIE323"]
+    },
+    {
+      "code": "AIE426",
+      "name": "Decision Making under Uncertainty",
+      "credit_hours": 3,
+      "prerequisites": ["AIE323"]
+    },
+    {
+      "code": "AIE427",
+      "name": "Statistical Pattern Recognition",
+      "credit_hours": 3,
+      "prerequisites": ["AIE322"]
+    },
+    {
+      "code": "AIE444",
+      "name": "Question Answering Systems",
+      "credit_hours": 3,
+      "prerequisites": ["AIE241"]
+    },
+    {
+      "code": "AIE452",
+      "name": "Cognitive Robotics",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE453",
+      "name": "Planning Techniques for Robotics",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE454",
+      "name": "Robot Kinematics & Dynamics",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE455",
+      "name": "Robot Mapping & Localization",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE456",
+      "name": "Human Robot Interaction",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE457",
+      "name": "Mobile Robot Development",
+      "credit_hours": 3,
+      "prerequisites": ["AIE351"]
+    },
+    {
+      "code": "AIE493",
+      "name": "Graduation Project 1",
+      "credit_hours": 3,
+      "prerequisites": ["SENIOR STANDING"]
+    },
+    {
+      "code": "AIE494",
+      "name": "Graduation Project 2",
+      "credit_hours": 3,
+      "prerequisites": ["AIE493"]
+    }
+  ]
+}
